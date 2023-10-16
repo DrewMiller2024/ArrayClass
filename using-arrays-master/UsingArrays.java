@@ -15,5 +15,12 @@ public class UsingArrays
     // DO NOT hard-code the number of items to divide by!
     // What would you use to find the length of the array?
     // Use System.out.println() to print the average score to the console
+    double sum = 0;
+    int n = grades.length;
+    for (int i = 0; i < n; i++) {
+      sum += grades[i];
+    }
+    double average = sum / n;
+    System.out.println(average);
   }
 }
