@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=color\ weight\ x\ y
+comment0.target=Fish(java.lang.String,\ int,\ int,\ int)
+comment1.params=
+comment1.target=void\ swim()
+comment1.text=\n\ Moves\ to\ a\ random\ position\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\n\ Is\ the\ fish\ still\ alive?\ (T/F)\n\ @return\ Alive\ status\ (T/F)\n
+comment3.params=
+comment3.target=void\ die()
+comment3.text=\n\ Kill\ the\ fish\n
+numComments=4
